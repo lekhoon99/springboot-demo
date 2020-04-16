@@ -58,6 +58,8 @@ public class DemoApplication implements CommandLineRunner {
 		
 		logger.info("Part Time Employees -> {}", 
 				employeeRepository.retrieveAllPartTimeEmployees());*/
+		
+		System.out.println("end......");
 	}
 
 }
