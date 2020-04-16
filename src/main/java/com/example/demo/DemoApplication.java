@@ -28,12 +28,14 @@ public class DemoApplication implements CommandLineRunner {
 	@Autowired
 	private EmployeeRepository employeeRepository;
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+	public static void main(String[] args1) {
+		SpringApplication.run(DemoApplication.class, args1);
 	}
 
 	@Override
 	public void run(String... arg0) throws Exception {
+
+		System.out.println("start......");
 		// studentRepository.saveStudentWithPassport();
 		// repository.playWithEntityManager();
 		// courseRepository.addHardcodedReviewsForCourse();
